@@ -1,0 +1,47 @@
+#root {
+  margin: 3em auto;
+}
+
+body {
+  background: #eee;
+}
+
+#root input {
+  background: inherit !important;
+  border: none;
+  border-bottom: 2px solid #efefef;
+}
+
+div.appBox {
+  background: #2C5368; /* fallback for old browsers */
+  color:#eee;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 2em;
+  border: 1px solid transparent;
+}
+
+.form-group input {
+  width: 5em !important;
+  color: #dfd !important;
+}
+
+#root input:focus {
+  background:#2C5364 !important;
+}
+
+div .form-inline {
+  display: inline-block;
+} 
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    background: red;
+    color: blue;
+}
+
+input[type=number] {
+    -moz-appearance:textfield; 
+}
